@@ -1,0 +1,153 @@
+/* RTL Specific Styles */
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Header */
+.header-inner {
+    flex-direction: row-reverse;
+}
+
+.nav-item {
+    margin-right: 3rem;
+    margin-left: 0;
+}
+
+.language-switcher {
+    margin-right: 2rem;
+    margin-left: 0;
+}
+
+.menu-toggle {
+    margin-left: 0;
+    margin-right: 1rem;
+}
+
+/* Hero */
+.hero-content {
+    text-align: right;
+}
+
+.hero-actions {
+    flex-direction: row-reverse;
+}
+
+/* Services */
+.service-link::after {
+    content: '←';
+    margin-right: 0.5rem;
+    margin-left: 0;
+}
+
+/* SEO Tabs */
+.seo-tab-nav {
+    flex-direction: row-reverse;
+}
+
+.seo-tab-btn::after {
+    right: auto;
+    left: 0;
+}
+
+/* Paid Services Tabs */
+.paid-services-tab-nav {
+    flex-direction: row-reverse;
+}
+
+.paid-services-tab-btn::after {
+    right: auto;
+    left: 0;
+}
+
+/* Portfolio */
+.portfolio-link::before {
+    content: '←';
+    margin-right: 0.5rem;
+    margin-left: 0;
+}
+
+/* Testimonials */
+.testimonial-text::before {
+    right: auto;
+    left: -1rem;
+}
+
+.testimonial-text::after {
+    left: auto;
+    right: -1rem;
+}
+
+.author-image {
+    margin-right: 1.5rem;
+    margin-left: 0;
+}
+
+/* Team */
+.member-social {
+    right: auto;
+    left: 0;
+}
+
+/* Contact */
+.contact-info {
+    text-align: right;
+}
+
+.contact-info .section-title::after {
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.info-item {
+    flex-direction: row-reverse;
+}
+
+.info-icon {
+    margin-right: 2rem;
+    margin-left: 0;
+}
+
+/* Footer */
+.footer-title::after {
+    right: auto;
+    left: 0;
+}
+
+.footer-links a:hover {
+    padding-right: 0;
+    padding-left: 5px;
+}
+
+.newsletter-group input {
+    border-radius: 0 6px 6px 0;
+}
+
+.newsletter-group button {
+    border-radius: 6px 0 0 6px;
+}
+
+/* Back to Top */
+.back-to-top {
+    right: 3rem;
+    left: auto;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .nav {
+        right: auto;
+        left: -100%;
+    }
+    
+    .nav.active {
+        right: auto;
+        left: 0;
+    }
+    
+    .header-actions {
+        margin-right: 0;
+        margin-left: auto;
+    }
+}

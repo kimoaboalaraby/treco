@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معرض التصاميم | وكالة التطوير</title>
+    
+    <!-- نفس روابط الموقع الرئيسي -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+</head>
+<body>
+    <!-- نفس الهيدر الرئيسي -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="index.html" class="logo">
+                    <svg viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+                        <text x="0" y="35" font-family="Tajawal" font-size="30" font-weight="700" fill="#4F46E5">وكالة التطوير</text>
+                    </svg>
+                </a>
+                
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="index.html" class="nav-link">الرئيسية</a></li>
+                        <li class="nav-item"><a href="services.html" class="nav-link">خدماتنا</a></li>
+                        <li class="nav-item"><a href="portfolio.html" class="nav-link">أعمالنا</a></li>
+                        <li class="nav-item"><a href="gallery.html" class="nav-link active">معرض التصاميم</a></li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">من نحن</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">اتصل بنا</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="header-actions">
+                    <div class="language-switcher">
+                        <button class="language-btn">العربية</button>
+                        <ul class="language-dropdown">
+                            <li><a href="gallery.html" class="active">العربية</a></li>
+                            <li><a href="en/gallery.html">English</a></li>
+                        </ul>
+                    </div>
+                    
+                    <button class="menu-toggle" id="menuToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- قسم البانر الرئيسي -->
+    <section class="gallery-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">معرض التصاميم</span>
+                    <span class="title-line">الإعلانية الاحترافية</span>
+                </h1>
+                <p class="hero-text">تصاميم مبدعة تواكب أحدث اتجاهات التسويق الرقمي وتلهم جمهورك</p>
+                <div class="hero-actions">
+                    <a href="#facebook" class="btn btn-primary">استكشف التصاميم</a>
+                    <a href="#contact" class="btn btn-outline">اطلب تصميم مخصص</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-pattern"></div>
+    </section>
+
+    <!-- شريط تصفح الأقسام -->
+    <nav class="gallery-navbar">
+        <div class="container">
+            <ul class="gallery-categories">
+                <li><a href="#facebook" class="active">منشورات فيسبوك</a></li>
+                <li><a href="#stories">قصص إنستغرام</a></li>
+                <li><a href="#tiktok">فيديوهات تيك توك</a></li>
+                <li><a href="#3d">فيديوهات 3D</a></li>
+                <li><a href="#ads">إعلانات ممولة</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- قسم منشورات الفيسبوك -->
+    <section id="facebook" class="design-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">منشورات فيسبوك</h2>
+                <p class="section-subtitle">تصاميم جذابة للمنشورات التفاعلية على فيسبوك</p>
+            </div>
+            
+            <div class="design-slider swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- منشور 1 -->
+                    <div class="swiper-slide">
+                        <div class="design-card">
+                            <div class="design-frame facebook-post">
+                                <img src="images/designs/facebook/post1.jpg" alt="منشور فيسبوك إعلاني">
+                                <div class="design-overlay">
+                                    <a href="images/designs/facebook/post1.jpg" data-lightbox="facebook" class="view-btn">
+                                        <i class="fas fa-expand"></i>
+                                    </a>
+                                    <button class="like-btn">
+                                        <i class="far fa-heart"></i> 245
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="design-info">
+                                <h3>منشور ترويجي لمطعم</h3>
+                                <p>تصميم جذاب مع عروض خاصة</p>
+                                <div class="design-meta">
+                                    <span><i class="fas fa-ruler-combined"></i> 1200 × 1200 px</span>
+                                    <span><i class="fas fa-download"></i> 1.2 MB</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- منشور 2 -->
+                    <div class="swiper-slide">
+                        <div class="design-card">
+                            <div class="design-frame facebook-post">
+                                <img src="images/designs/facebook/post2.jpg" alt="منشور فيسبوك تعليمي">
+                                <div class="design-overlay">
+                                    <a href="images/designs/facebook/post2.jpg" data-lightbox="facebook" class="view-btn">
+                                        <i class="fas fa-expand"></i>
+                                    </a>
+                                    <button class="like-btn">
+                                        <i class="far fa-heart"></i> 189
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="design-info">
+                                <h3>منشور تعليمي</h3>
+                                <p>نصائح وتوجيهات للعملاء</p>
+                                <div class="design-meta">
+                                    <span><i class="fas fa-ruler-combined"></i> 1200 × 1200 px</span>
+                                    <span><i class="fas fa-download"></i> 1.5 MB</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- المزيد من المنشورات -->
+                </div>
+                
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم قصص الإنستغرام -->
+    <section id="stories" class="design-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">قصص إنستغرام</h2>
+                <p class="section-subtitle">تصاميم تفاعلية للقصص مع مؤثرات حركية</p>
+            </div>
+            
+            <div class="design-slider swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- قصة 1 -->
+                    <div class="swiper-slide">
+                        <div class="design-card">
+                            <div class="design-frame instagram-story">
+                                <img src="images/designs/instagram/story1.jpg" alt="قصة إنستغرام إعلانية">
+                                <div class="design-overlay">
+                                    <a href="images/designs/instagram/story1.jpg" data-lightbox="instagram" class="view-btn">
+                                        <i class="fas fa-expand"></i>
+                                    </a>
+                                    <button class="like-btn">
+                                        <i class="far fa-heart"></i> 178
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="design-info">
+                                <h3>قصة إعلانية</h3>
+                                <p>عرض خاص لمدة محدودة</p>
+                                <div class="design-meta">
+                                    <span><i class="fas fa-ruler-combined"></i> 1080 × 1920 px</span>
+                                    <span><i class="fas fa-download"></i> 2.1 MB</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- قصة 2 -->
+                    <div class="swiper-slide">
+                        <div class="design-card">
+                            <div class="design-frame instagram-story">
+                                <img src="images/designs/instagram/story2.jpg" alt="قصة إنستغرام تعليمية">
+                                <div class="design-overlay">
+                                    <a href="images/designs/instagram/story2.jpg" data-lightbox="instagram" class="view-btn">
+                                        <i class="fas fa-expand"></i>
+                                    </a>
+                                    <button class="like-btn">
+                                        <i class="far fa-heart"></i> 145
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="design-info">
+                                <h3>قصة تعليمية</h3>
+                                <p>كيفية استخدام المنتج</p>
+                                <div class="design-meta">
+                                    <span><i class="fas fa-ruler-combined"></i> 1080 × 1920 px</span>
+                                    <span><i class="fas fa-download"></i> 1.8 MB</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- المزيد من القصص -->
+                </div>
+                
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم فيديوهات تيك توك -->
+    <section id="tiktok" class="design-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">فيديوهات تيك توك</h2>
+                <p class="section-subtitle">فيديوهات قصيرة جذابة مع مؤثرات وموسيقى</p>
+            </div>
+            
+            <div class="design-slider swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- فيديو 1 -->
+                    <div class="swiper-slide">
+                        <div class="design-card">
+                            <div class="design-frame tiktok-video">
+                                <video poster="images/designs/tiktok/video1-poster.jpg">
+                                    <source src="images/designs/tiktok/video1.mp4" type="video/mp4">
+                                </video>
+                                <div class="design-overlay">
+                                    <button class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </button>
+                                    <button class="like-btn">
+                                        <i class="far fa-heart"></i> 521
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="design-info">
+                                <h3>فيديو ترويجي</h3>
+                                <p>عرض المنتج بطريقة إبداعية</p>
+                                <div class="design-meta">
+                                    <span><i class="fas fa-ruler-combined"></i> 1080 × 1920 px</span>
+                                    <span><i class="fas fa-clock"></i> 0:15</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- فيديو 2 -->
+                    <div class="swiper-slide">
+                        <div class="design-card">
+                            <div class="design-frame tiktok-video">
+                                <video poster="images/designs/tiktok/video2-poster.jpg">
+                                    <source src="images/designs/tiktok/video2.mp4" type="video/mp4">
+                                </video>
+                                <div class="design-overlay">
+                                    <button class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </button>
+                                    <button class="like-btn">
+                                        <i class="far fa-heart"></i> 432
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="design-info">
+                                <h3>تحدي تفاعلي</h3>
+                                <p>مشاركة الجمهور مع الهاشتاق</p>
+                                <div class="design-meta">
+                                    <span><i class="fas fa-ruler-combined"></i> 1080 × 1920 px</span>
+                                    <span><i class="fas fa-clock"></i> 0:30</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- المزيد من الفيديوهات -->
+                </div>
+                
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم فيديوهات 3D -->
+    <section id="3d" class="design-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">فيديوهات 3D مخصصة</h2>
+                <p class="section-subtitle">تصاميم ثلاثية الأبعاد مع تعليق صوتي احترافي</p>
+            </div>
+            
+            <div class="design-slider swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- فيديو 1 -->
+                    <div class="swiper-slide">
+                        <div class="design-card">
+                            <div class="design-frame video-3d">
+                                <video poster="images/designs/3d/video1-poster.jpg">
+                                    <source src="images/designs/3d/video1.mp4" type="video/mp4">
+                                </video>
+                                <div class="design-overlay">
+                                    <button class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </button>
+                                    <button class="like-btn">
+                                        <i class="far fa-heart"></i> 389
+                                    </button>
+                                    <button class="sound-btn">
+                                        <i class="fas fa-volume-up"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="design-info">
+                                <h3>عرض منتج 3D</h3>
+                                <p>تصميم ثلاثي الأبعاد مع تعليق صوتي</p>
+                                <div class="design-meta">
+                                    <span><i class="fas fa-ruler-combined"></i> 1920 × 1080 px</span>
+                                    <span><i class="fas fa-clock"></i> 1:15</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- فيديو 2 -->
+                    <div class="swiper-slide">
+                        <div class="design-card">
+                            <div class="design-frame video-3d">
+                                <video poster="images/designs/3d/video2-poster.jpg">
+                                    <source src="images/designs/3d/video2.mp4" type="video/mp4">
+                                </video>
+                                <div class="design-overlay">
+                                    <button class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </button>
+                                    <button class="like-btn">
+                                        <i class="far fa-heart"></i> 276
+                                    </button>
+                                    <button class="sound-btn">
+                                        <i class="fas fa-volume-up"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="design-info">
+                                <h3>فيديو مؤسسي</h3>
+                                <p>قصة العلامة التجارية بتقنية 3D</p>
+                                <div class="design-meta">
+                                    <span><i class="fas fa-ruler-combined"></i> 1920 × 1080 px</span>
+                                    <span><i class="fas fa-clock"></i> 2:30</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- المزيد من الفيديوهات -->
+                </div>
+                
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الإعلانات الممولة -->
+    <section id="ads" class="design-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">إعلانات ممولة</h2>
+                <p class="section-subtitle">تصاميم إعلانية مدفوعة عالية التحويل</p>
+            </div>
+            
+            <div class="design-slider swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- إعلان 1 -->
+                    <div class="swiper-slide">
+                        <div class="design-card">
+                            <div class="design-frame paid-ad">
+                                <img src="images/designs/ads/ad1.jpg" alt="إعلان ممول لفيسبوك">
+                                <div class="design-overlay">
+                                    <a href="images/designs/ads/ad1.jpg" data-lightbox="ads" class="view-btn">
+                                        <i class="fas fa-expand"></i>
+                                    </a>
+                                    <button class="like-btn">
+                                        <i class="far fa-heart"></i> 198
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="design-info">
+                                <h3>إعلان فيسبوك</h3>
+                                <p>حملة مبيعات موسمية</p>
+                                <div class="design-meta">
+                                    <span><i class="fas fa-ruler-combined"></i> 1200 × 628 px</span>
+                                    <span><i class="fas fa-download"></i> 1.7 MB</span>
+                                </div>
+                                <div class="ad-stats">
+                                    <div class="stat-item">
+                                        <span class="stat-value">4.8%</span>
+                                        <span class="stat-label">معدل النقر</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-value">12%</span>
+                                        <span class="stat-label">معدل التحويل</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- إعلان 2 -->
+                    <div class="swiper-slide">
+                        <div class="design-card">
+                            <div class="design-frame paid-ad">
+                                <img src="images/designs/ads/ad2.jpg" alt="إعلان ممول لإنستغرام">
+                                <div class="design-overlay">
+                                    <a href="images/designs/ads/ad2.jpg" data-lightbox="ads" class="view-btn">
+                                        <i class="fas fa-expand"></i>
+                                    </a>
+                                    <button class="like-btn">
+                                        <i class="far fa-heart"></i> 231
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="design-info">
+                                <h3>إعلان إنستغرام</h3>
+                                <p>حملة اكتساب متابعين</p>
+                                <div class="design-meta">
+                                    <span><i class="fas fa-ruler-combined"></i> 1080 × 1080 px</span>
+                                    <span><i class="fas fa-download"></i> 2.3 MB</span>
+                                </div>
+                                <div class="ad-stats">
+                                    <div class="stat-item">
+                                        <span class="stat-value">3.5%</span>
+                                        <span class="stat-label">معدل النقر</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-value">8%</span>
+                                        <span class="stat-label">معدل التحويل</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- المزيد من الإعلانات -->
+                </div>
+                
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- نموذج الفيديو -->
+    <div class="video-modal">
+        <div class="modal-content">
+            <button class="close-modal">&times;</button>
+            <video controls>
+                <source src="" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <!-- نفس الفوتر الرئيسي -->
+    <footer class="footer">
+        <!-- ... -->
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>
